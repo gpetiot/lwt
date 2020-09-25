@@ -4,7 +4,7 @@
  (preprocess (pps lwt_ppx))
  (flags (:standard -warn-error -22)))
 
-(alias
+(test
  (name runtest)
  (package lwt_ppx)
  (action (run %{exe:main.exe})))

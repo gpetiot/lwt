@@ -7,7 +7,7 @@
  (name main)
  (libraries lwttester))
 
-(alias
+(test
  (name runtest)
  (package lwt)
  (action (run %{exe:main.exe}))
